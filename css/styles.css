@@ -2,7 +2,7 @@ body {
     font-family: 'Montserrat';
 }
 h1 {
-    font-family: "Montserrat-black";  
+    font-family: 'Montserrat-black';  
     font-size: 3.5rem;  
     line-height: 1.5;  
     font-weight: 900;
@@ -106,22 +106,31 @@ p {
 }
 
 /* Call to Action */
+
 #cta {
-    font-family: 'Montserrat';
+    background-color: #ff4c68;
+    padding: 7% 15%;
     text-align: center;
+}
+.cta-heading {
+    font-family: 'Montserrat-black';
+    color: #fff;
+    font-size: 3.5rem;
+    line-height: 1.5;
 }
 
 /* Footer section */
 #footer {
     text-align: center;
-    background-color: #ff4c68;
-    padding: 20px;
+    background-color: #fff;
+    padding: 2% 15% 1%;
+    background: rgb(232,219,252);
+    background: linear-gradient(0deg, rgba(232,219,252,1) 0%, rgba(248,249,210,1) 100%);     
 }
 .footer {
-    color: #fff;
-    padding-top: 10px;
+    color: black;
 }
-.footer-icon-style {
+.social-icons {
     padding: 10px;
     color: black;
     
