@@ -54,7 +54,6 @@ p {
 /* Title image */
 .title-image {
     width: 20%;
-    height: 85%;
     transform: rotate(25deg);
     position: absolute;
     right: 22%;
@@ -120,4 +119,15 @@ p {
 }
 .footer {
     color: #fff;
+}
+
+@media (max-width:1030px) {
+    #title {
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+    }
 }
