@@ -119,6 +119,12 @@ p {
 }
 .footer {
     color: #fff;
+    padding-top: 10px;
+}
+.footer-icon-style {
+    padding: 10px;
+    color: black;
+    
 }
 
 @media (max-width:1030px) {
