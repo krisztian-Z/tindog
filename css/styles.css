@@ -10,6 +10,7 @@ h1 {
 h3 {
     font-family: 'Montserrat';
     font-weight: bold;
+    color: black;
 }
 h2 {
     font-family: 'Montserrat';
@@ -21,7 +22,7 @@ p {
     color: #8f8f8f;
 }
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 #title {
@@ -51,15 +52,18 @@ p {
     margin: 5% 3% 5% 0;
 }
 /* Title image */
-.iphone {
-    width: 55%;
-    background-color: lightgray;
-    background-color: transparent;
+.title-image {
+    width: 20%;
+    height: 85%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 22%;
 }
 /* Features section */
 #features {
     padding: 7% 17%;
+    background-color: #fff;
+    position: relative;
 }
 .feature-box {
     text-align: center;
