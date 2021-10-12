@@ -157,4 +157,7 @@ p {
         transform: rotate(0);
         width: 60%;
     }
+    #testimonials {
+        padding: 3%;
+    }
 }
