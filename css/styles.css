@@ -88,6 +88,10 @@ p {
 }
 
 /* Testimonials section */
+.text-press {
+    background-color: #ef8172;
+    color: #fff;
+}
 #testimonials {
     background-color: #ef8172;
     color: #fff;
